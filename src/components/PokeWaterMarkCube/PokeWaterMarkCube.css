@@ -1,0 +1,27 @@
+.poke-cube-water-mark-container {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 554px;
+    height: 566px;
+    z-index: 0;
+}
+.poke-cube-border {
+    fill: none;
+    stroke: #FFF;
+}
+
+.outer-border {
+    stroke-width: 32px;
+    stroke-linejoin: round;
+}
+
+.inner-border {
+    stroke-width: 16px;
+    stroke-linejoin: round;
+}
+
+.poke-ball-cube {
+    stroke-width: 12px;
+    stroke-linejoin: round;
+}

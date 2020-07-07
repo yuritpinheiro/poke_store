@@ -1,0 +1,22 @@
+/* .poke-shop-item-container {
+    
+
+} */
+
+
+.poke-shop-item-container > .frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    min-height: 128px;
+    background-color: #FFFFFF99;
+    border-radius: 24px;
+}
+
+.poke-shop-item-container > .frame > img{
+    object-fit: contain;
+    width: 96px;
+    height: 96px;
+}

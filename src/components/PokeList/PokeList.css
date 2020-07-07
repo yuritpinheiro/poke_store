@@ -1,0 +1,6 @@
+.poke-shop-cart-list-items {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 16px;
+    margin: 18px 0;
+}

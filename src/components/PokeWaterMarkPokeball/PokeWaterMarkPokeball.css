@@ -1,0 +1,17 @@
+.poke-water-mark-pokeball-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.outer-border {
+    fill: #0000;
+    stroke: #FFF;
+    stroke-width: 43px;
+}
+
+.inner-border {
+    fill: #0000;
+    stroke:  #FFF;
+    stroke-width: 30px;
+}

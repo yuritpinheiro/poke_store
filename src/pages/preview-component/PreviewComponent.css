@@ -1,0 +1,18 @@
+.preview-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcoral;
+    background-image: url('../../images/image.png');
+}
+
+.preview-component-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #000 1px;
+    padding: 1px;
+}
+

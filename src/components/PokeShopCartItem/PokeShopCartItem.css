@@ -1,0 +1,50 @@
+.shop-cart-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-cart-item-container > .frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #fdfdfd;
+    width: 380px;
+    height: 96px;
+    padding: 0px 24px 8px 24px;
+    border-radius: 120px;
+    box-shadow: 0px 5px 16px 1px #0000006b;
+}
+
+.poke-sprite {
+    align-self: center;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    margin: 0px -4px 0px -8px;
+}
+
+.poke-sprite > img{
+    position: relative;
+    object-fit: contain;
+    width: inherit;
+    height: inherit;
+    z-index: 100;
+}
+
+.poke-status {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.poke-status > .pokemon-name {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+
+.pokemon-data {
+    font-size: large;
+    font-weight: normal;
+}

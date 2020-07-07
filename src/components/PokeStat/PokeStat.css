@@ -1,0 +1,18 @@
+.pokemon-status-container > .pokemon-stat {
+    display: flex;
+    /* height: 32px; */
+}
+
+.pokemon-stat > .pokemon-stat-name {
+    background-color: #dcdbda;
+    width: 90px;
+    text-align: center;
+    vertical-align: center;
+    padding: 4px 0px;
+}
+
+.pokemon-stat > .pokemon-stat-value {
+    flex-grow: 1;
+    vertical-align: center;
+    padding: 4px 12px;
+}

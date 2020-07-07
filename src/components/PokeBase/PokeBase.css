@@ -1,0 +1,24 @@
+.poke-base-container {
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+    bottom: 8px;
+    width: 64px;
+    height: 32px;
+    z-index: 0;
+}
+
+.pokeball-shape {
+    fill: #eae7e9;
+}
+
+.pokeball-mid-line {
+    stroke: #fff;
+    stroke-width: 4px;
+}
+
+.pokeball-button-shape {
+    stroke: #fff;
+    stroke-width: 4px;
+    fill: #eae7e9;
+}
