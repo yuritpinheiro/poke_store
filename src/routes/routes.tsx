@@ -10,7 +10,7 @@ import PreviewComponent from '../pages/preview-component/PreviewComponent';
 
 function PokeRouter() {
     return (
-        <Router>
+        <Router basename="/poke_store">
             {/* <header>
                 <nav style={{ display: 'flex', flexDirection: 'row' }}>
                     <Link to="/shop">Poke Shop</Link>
